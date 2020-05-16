@@ -1,0 +1,33 @@
+1.
+	8GB RAM
+	128GB SSD
+
+2.
+	Time spent without threads: 0.035000
+	Time spent with threads: 3.4600000000
+
+	Time spent without threads: 2.326000
+	Time spent with threads: 10.687000000
+
+	Time spent without threads: 26.292000
+	Time spent with threads: 7.564000000
+
+	Time spent without threads: 163.354000
+	Time spent with threads: 9.93200000
+
+	Time spent without threads: 641.545000
+	Time spent with threads: 15.5170000
+
+	Time spent without threads: 13084.283000
+	Time spent with threads: 38.612000
+
+	Time spent without threads: 16359.141000
+	Time spent with threads: 37.439000
+
+
+3.
+	For the first cases sequential was faster than parrallel one. I think it is the problem of relativity. 
+	Since I use thread join in for loop it adds additional time for parallel one but when the dimension increases O(n) will increase less than O(n^3).
+
+4.
+	No, because the initial matrices do not change and each thread is connected to the individual row of the output matrix.  

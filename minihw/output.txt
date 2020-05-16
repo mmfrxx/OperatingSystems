@@ -1,0 +1,3 @@
+
+Time spent without threads: 0.018000
+Time spent with threads: 2.899000
